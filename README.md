@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-parallaxy
 [![npm version](https://badge.fury.io/js/vue-parallaxy.svg)](https://badge.fury.io/js/vue-parallaxy)
 ![npm dependencies](https://david-dm.org/apertureless/vue-parallax.svg)
@@ -87,3 +88,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 ## License
 
 This software is distributed under [MIT license](LICENSE.txt).
+=======
+# acaiWebsite
+The website for the Açaí company. 
+>>>>>>> 946b2a29dc5cd097ed64283e691d6bf60c372bd5
