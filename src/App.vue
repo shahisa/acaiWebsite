@@ -22,6 +22,30 @@
     <div>
 
     <div style="background-color: #fff; height: 100vh;">
+      <md-card>
+        <md-card-header>
+          <div clas="md-title">
+            More Inforamtion Alerts
+          </div>
+        </md-card-header>
+      </md-card>
+      <form novalidate @submit.stop.prevent="submit">
+        <md-input-container>
+          <label>First Name</label>
+          <md-input v-model="initialValue"></md-input>
+        </md-input-container>
+
+        <md-input-container>
+          <label>With label</label>
+          <md-input placeholder="My nice placeholder"></md-input>
+        </md-input-container>
+
+        <md-input-container>
+          <md-icon>phone</md-icon>
+          <label>Phone</label>
+          <md-input type="number"></md-input>
+        </md-input-container>   
+      </form>
     </div>
   </div>
 </template>
@@ -46,7 +70,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #581845;
   position: relative;
 }
 </style>
