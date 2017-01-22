@@ -1,10 +1,14 @@
 <template>
   <div id="app">
     <div style="background-color: #fff; height: 100vh;">
-    <h1 style="margin-top: 0; padding-top: 20px;">Scroll down ⬇</h1>
+    <h1 style="margin-top: 0; padding-top: 20px;">Acai</h1>
+    <h3>What is Açaí?</h3>
+    <p>
+      Life comes at you hard. You may need an emergency laptop. 
+    </p>
     </div>
     <div style="position: relative; z-index: 9999; background-color: #fff;">
-      <h1 style="margin:0;">Parallax Effect</h1>
+      <h1 style="margin:0;">Begin Micro Investing, Borrowing & Lending</h1>
       <parallax>
         <img src="static/img/pexels-photo-241307.jpeg">
       </parallax>
@@ -20,6 +24,7 @@
 
     <div style="background-color: #fff; height: 100vh;"></div>
   </div>
+  
 </template>
 
 <script>
