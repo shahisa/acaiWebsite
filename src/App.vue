@@ -25,26 +25,39 @@
       <md-card>
         <md-card-header>
           <div clas="md-title">
-            More Inforamtion Alerts
+            Sign Up to Recieve Updates on the Açaí Mobile App Progress
           </div>
         </md-card-header>
       </md-card>
       <form novalidate @submit.stop.prevent="submit">
         <md-input-container>
           <label>First Name</label>
-          <md-input v-model="initialValue"></md-input>
+          <md-icon class="md-accent">people</md-icon>
+          <md-input placeholder="Enter First Name"></md-input>
         </md-input-container>
 
         <md-input-container>
-          <label>With label</label>
-          <md-input placeholder="My nice placeholder"></md-input>
+          <label>Last Name</label>
+          <md-icon class="md-accent">people</md-icon>
+          <md-input placeholder="Enter Last Name"></md-input>
         </md-input-container>
+
+        <md-input-container>
+          <md-icon class="md-accent">email</md-icon>
+          <label>Email</label>
+          <md-input type="email" placeholder="Enter Email Address"></md-input>
+          <span class="md-error">Please Enter Valid Email</span>
+        </md-input-container>
+
 
         <md-input-container>
           <md-icon>phone</md-icon>
           <label>Phone</label>
-          <md-input type="number"></md-input>
-        </md-input-container>   
+          <md-input type="number" placeholder="Enter Phone Number"></md-input>
+          <span class="md-error">Please Enter Valid Phone Number</span>
+        </md-input-container>
+        <md-radio v-model="radio1" id="my-test1" name="my-test-group1" md-value="1">Click to become a Beta Tester</md-radio>
+        <md-button class="md-raised md-primary">Submit</md-button>   
       </form>
     </div>
   </div>
@@ -70,7 +83,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #581845;
+  color: #2813D6;
   position: relative;
 }
 </style>
