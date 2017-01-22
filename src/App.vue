@@ -21,7 +21,8 @@
       </parallax>
     <div>
 
-    <div style="background-color: #fff; height: 100vh;"></div>
+    <div style="background-color: #fff; height: 100vh;">
+    </div>
   </div>
 </template>
 
